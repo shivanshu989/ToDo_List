@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <section class="app-container"> <!-- Main Body of Container of Application -->
+  
+        <h1>To-Do List</h1>
+        
+        <div class="new-task-container box">
+        
+        <label for="new-task">Add New Task</label>
+        <input type="text" id="new-task">
+          <button id="addTask">+</button>
+        
+        </div>
+        
+        <div class="todo-list box">
+        
+          <h2>Incomplete Tasks</h2>
+          <ul>
+            <li><input type="checkbox"><label>Ongoing Task 1</lable></li>
+            <li><input type="checkbox"><label>Ongoing Task 2</lable></li>
+            <li><input type="checkbox"><label>Ongoing Task 3</lable></li>
+          </ul>
+        
+        </div><!--/todo-list-->
+        
+        <div class="complete-list box">
+          
+          <h2>Completed Tasks</h2>
+          <ul>
+            <li>Finished Task<button class="delete"><i class="material-icons">delete</i></button></li>
+          </ul>
+          
+        </div><!--/complete-list-->
+        
+      </section><!--/container-->
+      <script src="main.js"></script>
+  </body>
+</html>
